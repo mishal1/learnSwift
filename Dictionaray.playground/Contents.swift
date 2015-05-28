@@ -2,4 +2,24 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var info = ["name": "mishal"]
+
+info["name"]
+
+info["info"]
+
+info["age"] = "22"
+
+info["name"] = "Mishal"
+
+info
+
+info.removeValueForKey("age")
+
+info
+
+info.count
+
+info.values
+
+info.keys
